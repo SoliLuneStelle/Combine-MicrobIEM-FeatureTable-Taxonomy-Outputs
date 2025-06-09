@@ -7,8 +7,6 @@ Files needed:
 feature-table.qza
 taxonomy.qza
 
-module load qiime2/2023.5.1
-
 #makes a biom_file directory and makes a feature-table.biom file
 qiime tools export --input-path feature-table.qza --output-path biom_file
 
