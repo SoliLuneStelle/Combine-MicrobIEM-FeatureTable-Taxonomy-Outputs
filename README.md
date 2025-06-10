@@ -7,17 +7,17 @@ Files needed:
 feature-table.qza
 taxonomy.qza
 
-#makes a biom_file directory and makes a feature-table.biom file
+#makes a biom_file directory and makes a feature-table.biom file \
 qiime tools export --input-path feature-table.qza --output-path biom_file
 
-#converts the .biom file to a tsv file of the feature table
+#converts the .biom file to a tsv file of the feature table \
 biom convert -i feature-table.biom -o feature-table.tsv --table-type="OTU table" --to-tsv
 
-#makes a taxonomy directory with a taxonomy tsv file 
+#makes a taxonomy directory with a taxonomy tsv file \
 qiime tools export --input-path taxonomy.qza --output-path taxonomy
 
-#fix headers in resulting tsv files
-#rename Feature ID to OTU_ID
+#fix headers in resulting tsv files \
+#rename Feature ID to OTU_ID \
 vi feature-table.tsv
 #rename taxon taxonomy
 vi taxonomy.tsv 
