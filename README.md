@@ -6,7 +6,7 @@ To use this script you will need to have done the following:
 Files needed: \
 feature-table.qza \
 taxonomy.qza \
-rep-seqs.qza \
+rep-seqs.qza 
 
 #makes a biom_file directory and makes a feature-table.biom file \
 qiime tools export --input-path feature-table.qza --output-path biom_file
