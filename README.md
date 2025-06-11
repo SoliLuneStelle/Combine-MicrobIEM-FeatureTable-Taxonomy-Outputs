@@ -28,8 +28,9 @@ awk '/^>/ {if (seq) print id"\t"seq; id=substr($0,2); seq=""} /^[^>]/ {seq=seq $
 
 #fix/check headers in resulting tsv files \
 #rename Feature ID to OTU_ID \
-vi feature-table.tsv
-#rename taxon taxonomy
-vi taxonomy.tsv 
-#add headers
+vi feature-table.tsv \
+#rename taxon taxonomy \
+vi taxonomy.tsv \
+#add headers \
 vi rep-seqs.tsv 
+
