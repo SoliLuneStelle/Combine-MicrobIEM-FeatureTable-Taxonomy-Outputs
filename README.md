@@ -3,10 +3,10 @@ Combine MicrobIEM decontamination output (as a .tsv file) with Qiime2 rep-seqs, 
 
 To use this script you will need to have done the following: 
 
-Files needed: 
-feature-table.qza
-taxonomy.qza
-rep-seqs-qza
+Files needed: \
+feature-table.qza \
+taxonomy.qza \
+rep-seqs.qza \
 
 #makes a biom_file directory and makes a feature-table.biom file \
 qiime tools export --input-path feature-table.qza --output-path biom_file
