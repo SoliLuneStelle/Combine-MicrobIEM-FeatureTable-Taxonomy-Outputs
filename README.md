@@ -1,5 +1,5 @@
 # Combine-MicrobIEM-RepSeqs-Taxonomy-FeatureTable-Outputs
-Combine MicrobIEM decontamination output (as a .tsv file) with Qiime2 feature-table and taxonomy output (as .tsv files)
+Combine MicrobIEM decontamination output (as a .tsv file) with Qiime2 rep-seqs, feature-table, and taxonomy output (as .tsv files)
 
 To use this script you will need to have done the following: 
 
